@@ -27,8 +27,16 @@
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.507);
     text-align: center;
+    border-radius: 5px;
+    border: solid black 4px;
+    transition: all 0.07s;
 }
 .sound{
     font-size: 13px;
     color: goldenrod;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
 }
